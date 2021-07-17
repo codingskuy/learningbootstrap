@@ -1,0 +1,22 @@
+/* FLEXBOX */
+		.container {
+			display: inline-flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+			flex-flow: row wrap;
+			align-items: center;
+			align-content: space-around;
+
+		}
+		a {
+  width: calc(50% - 2em);
+  transition: transform 1s
+}
+.item{
+	order: 5;
+	flex-grow: 5;
+	flex-shrink: 5;
+	flex-basis: auto;
+	flex-wrap: 5;
+}
+

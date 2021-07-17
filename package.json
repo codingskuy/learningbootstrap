@@ -1,0 +1,24 @@
+{
+  "name": "bootstraplearn",
+  "version": "1.0.0",
+  "description": "learn bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "codingskuy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-contrib-jshint": "^3.0.0"
+  },
+  "dependencies": {
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-cli": "^1.4.3",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
